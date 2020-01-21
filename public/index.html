@@ -30,7 +30,7 @@
     $("#btn").click(function(){
       var doc = new jsPDF();
       
-      doc.fromHTML($("#tes").html(),15,15,{
+      doc.fromHTML($("root").html(),15,15,{
         "width":170,
         "elementHandlers":specialElementHandler
       });

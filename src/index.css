@@ -1,4 +1,4 @@
-h1, h3{
+h2, h4{
     color:#00beb0 ;
   }
   
@@ -13,12 +13,14 @@ h1, h3{
   
   .Linfo{
     flex: 4;
-    border: 2px solid darkgray;
+    border: 2px solid black;
+    margin: 5px;
   }
   
   .Finfo {
     flex: 6;
-    border: 2px solid darkgray;
+    border: 2px solid black;
+    margin: 5px;
   }
   
   .Sinfo{
@@ -31,15 +33,21 @@ h1, h3{
   body {
     padding: 30px;
     background-color: #D9D9D9;
+    text-align: center;
   }
+
+
   
   .pl-table .row {
-    margin: 5px 0;
+    margin:0;
     padding: 0 20px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            text-align: center;
+
   }
+
   
   .pl-table .col {
     padding: 0 10px;
@@ -61,9 +69,7 @@ h1, h3{
 
   .pl-table .pl-tbody .row {
     background-color: #ffffff;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    color: #979797;
+    color: black;
     font-size: 15px;
   }
   
@@ -73,4 +79,8 @@ h1, h3{
   }
 
   
-  
+  .total {
+    background-color: #00beb0;
+    color: white;
+    font-weight: bold;
+  }
