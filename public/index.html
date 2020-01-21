@@ -14,28 +14,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Generate Invoice | Sobrus</title>
+    <title>Sobrus | Generate Invoice</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-        <script>
-    $(document).ready(function(){
-      var specialElementHandler = {
-        "#editor":function(element, renderer){
-          return true;
-        }
-      }
-    });
-    $("#btn").click(function(){
-      var doc = new jsPDF();
-      
-      doc.fromHTML($("root").html(),15,15,{
-        "width":170,
-        "elementHandlers":specialElementHandler
-      });
-      doc.save("sample.pdf");
-    });
-    </script>
   </body>
 </html>
