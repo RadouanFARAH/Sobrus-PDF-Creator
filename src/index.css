@@ -13,14 +13,14 @@ h2, h4{
   
   .Linfo{
     flex: 4;
-    border: 2px solid black;
-    margin: 5px;
+    border: 1px solid black;
+    margin: 2px;
   }
   
   .Finfo {
     flex: 6;
-    border: 2px solid black;
-    margin: 5px;
+    border: 1px solid black;
+    margin: 2px;
   }
   
   .Sinfo{
@@ -33,18 +33,24 @@ h2, h4{
   body {
     padding: 30px;
     background-color: #D9D9D9;
-    text-align: center;
+    text-align: start;
   }
 
 
-  
+  .pl-table{
+    border-collapse: collapse;
+  }
+
+
   .pl-table .row {
-    margin:0;
+    border: solid;
+    border-width: 1px 1px;
+    margin:2px 0;
     padding: 0 20px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-            text-align: center;
+            text-align: start;
 
   }
 

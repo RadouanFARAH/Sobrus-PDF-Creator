@@ -4,7 +4,7 @@ const produitInfo = () => {
     return (
         <div>
 
-<div className="pl-table table-bordered">
+<div className="pl-table">
   <div className="pl-thead">
     <div className="row">
       <div className="col">Produit</div>

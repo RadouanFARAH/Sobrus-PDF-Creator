@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <hr style={{border: '3px solid #00beb0'}}/>
+            <hr style={{border: '2px solid #00beb0', width:'70%'}}/>
             <footer className="footer text-center">
             <ul>
                 <li>ICE : 5454454545</li>
