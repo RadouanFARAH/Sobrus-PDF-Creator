@@ -15,7 +15,7 @@ const produitInfo = () => {
   </div>
   <div className="pl-tbody">
     <div className="row">
-      <div className="col">DIFAL CO 50MG B30 COMP </div>
+      <div className="col">DIFAL CO 50MG B30 COMP</div>
       <div className="col">Cell 3</div>
       <div className="col">Cell 4</div>
       <div className="col">Cell 5</div>
